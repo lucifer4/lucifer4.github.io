@@ -1,0 +1,113 @@
+body {
+      background: url(images/background.gif);
+}
+
+#big-box::before{
+  content: '';
+  border-left: 1px solid #f5d6d6;
+  border-right: 1px solid #f5d6d6;
+  width: 2px;
+  position: absolute;
+  top: 0;
+  left: 82px;
+  height: 17.5em;
+  margin-top: 157px;
+  margin-left:335px;
+}
+#big-box{
+  width:550px;
+  margin:auto;
+}
+
+h1 {
+     color:         #d1d1d1;
+     font-size:     70px;
+     text-align:    center;
+     font-family:   Arial;
+     text-shadow: 1px 1px 0 rgba(255,255,255,0.3),-1px -1px 0 rgba(180,180,180,0.8)
+}
+
+#box{
+  height: 17px;
+  width:  550px;  
+  border-bottom:solid 1px #695e59;
+  background-color:#92827b;
+  margin-top: -20px;
+  box-sizing: border-box;
+}
+
+
+#new-todo{
+  height: 61px;
+  width:  550px;
+  padding-left:65px;
+  font-size: 23px;
+  font-style: italic;
+  box-sizing: border-box;
+  
+}
+
+.todo-items::before{
+ content: '✔';
+ font-size: 20px;
+ padding-left: 20px;
+ padding-right:30px;
+ color: #d9d9d9;
+}
+.todo-items{
+  width:  550px;
+  padding-top: 15px;
+  padding-left:;
+  padding-bottom: 20px;
+  font: 25px 'Helvetica Neue', Helvetica,
+        sans-serif;
+  color: #a9a9a9;
+  border-right: solid 1px #a9a9a9;
+  border-bottom: dotted 1px #a9a9a9;
+  border-left:   solid 1px #a9a9a9;
+  background-color: white;
+  box-sizing: border-box;
+}
+#todo-bottom::before{
+ content: '✔';
+ font-size: 20px;
+ padding-left: 20px;
+ padding-right:30px;
+ color: #d9d9d9;
+}
+#todo-bottom{
+  width:  550px;
+  padding-top: 15px;
+  padding-left:;
+  padding-bottom: 20px;
+  font: 25px 'Helvetica Neue', Helvetica,
+        sans-serif;
+  color: #a9a9a9;
+  border-right: solid 1px #a9a9a9;
+  border-bottom: solid 1px #a9a9a9;
+  border-left:   solid 1px #a9a9a9;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+p {
+     color:         #b9b9b9;
+     font-size:     10px;
+     text-align:    center;
+     font-family:   Arial;
+     text-shadow:   3px 1px 0px rgba(255,255,255,0.3)
+    
+}
+
+a {
+     color:         #b9b9b9;
+     font-size:     10px;
+     text-align:    center;
+     font-family:   Arial;
+     text-shadow:   3px 1px 1px rgba(255,255,255,0.3)
+ 
+}
+div#foot{
+     padding-top: 40px;
+  
+}
