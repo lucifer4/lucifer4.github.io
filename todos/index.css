@@ -38,6 +38,7 @@ h1 {
 
 
 #new-todo{
+  outline: none;
   height: 61px;
   width:  550px;
   padding-left:65px;
