@@ -41,9 +41,9 @@ h1 {
   height: 61px;
   width:  550px;
   padding-left:65px;
-  outline：none；
   font-size: 23px;
   font-style: italic;
+  outline：none；
   box-sizing: border-box;
   
 }
