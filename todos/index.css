@@ -43,9 +43,8 @@ h1 {
   padding-left:65px;
   font-size: 23px;
   font-style: italic;
-  outline：none；
   box-sizing: border-box;
-  
+  outline：none；
 }
 
 .todo-items::before{
