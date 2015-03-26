@@ -6,13 +6,14 @@ body {
   content: '';
   border-left: 1px solid #f5d6d6;
   border-right: 1px solid #f5d6d6;
-  width: 2px;
+  width: 4px;
   position: absolute;
   top: 0;
   left: 82px;
-  height: 17.5em;
+  height: 17em;
   margin-top: 157px;
   margin-left:335px;
+  box-sizing: border-box;
 }
 #big-box{
   width:550px;
